@@ -105,7 +105,7 @@ public class FrmLogin extends javax.swing.JFrame {
 
     private void btLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btLoginActionPerformed
         Usuario=txtUsuario.getText().toUpperCase();
-        Contraseña=String.valueOf(txtContraseña.getPassword());
+        Contraseña=String.valueOf(txtContraseña
         int id=0,profile=0;
         for (int i = 1; i <= 2; i++) {
             if ((administradorUsuario.equals(Usuario)&&administradorContraseña.equals(Contraseña))||(normalUsuario.equals(Usuario) &&normalContraseña.equals(Contraseña))) {
